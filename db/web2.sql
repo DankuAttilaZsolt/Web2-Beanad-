@@ -50,17 +50,15 @@ CREATE TABLE IF NOT EXISTS `motor_felhasznalok` (
   `fh_szint` int(11) NOT NULL,
   `fh_lastlogin` datetime NOT NULL,
   PRIMARY KEY (`fh_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci AUTO_INCREMENT=3 ;
 
 --
 -- A tábla adatainak kiíratása `motor_felhasznalok`
 --
 
 INSERT INTO `motor_felhasznalok` (`fh_id`, `fh_fnev`, `fh_jelszo`, `fh_tnev`, `fh_email`, `fh_aktiv`, `fh_szint`, `fh_lastlogin`) VALUES
-(1, 'admin', '*EC2B13C4ED4EBDD4B92257C50CCCD49B7BFB0B82', 'Webmester', 'webmester@szoa.hu', 1, 3, '2012-03-03 13:54:16'),
-(2, 'danku', '*FBDE5E7F0C14A9ECF861542C91B8533C2FFF9787', 'Danku Attila', 'dankuattilazsolt@gmail.com', 1, 2, '2011-09-13 04:13:49'),
-(3, 'beta', '*BD66B1F6FB23D3DBC4E5DDF5B5FF1A4473950D95', 'Béta Béla', 'beta@szoa.hu', 1, 2, '2012-02-22 02:41:06'),
-(4, 'gamma', '*3DDB6F1DCB51287BC6DFA27177DDD805ACAE1224', 'Gamma Gabi', 'gamma@szoa.hu', 1, 2, '2012-02-23 15:58:27');
+(1, 'admin', sha1('proba1'), 'Webmester', 'webmester@szoa.hu', 1, 3, '2012-03-03 13:54:16'),
+(2, 'danku', sha1('proba2'), 'Danku Attila', 'dankuattilazsolt@gmail.com', 1, 2, '2011-09-13 04:13:49');
 
 -- --------------------------------------------------------
 
@@ -136,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `motor_hozzaszolas` (
 
 INSERT INTO `motor_hozzaszolas` (`mh_id`, `mh_hozzaszol`, `mh_date`) VALUES
 (1, 'Hello hozzaszolas','2018-03-11 00:00:00'),
-(2, 'Hozzaszolas 2.','2012-02-22 02:41:06');
+(2, 'Hozzaszolas 2.','2018-02-22 02:41:06');
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

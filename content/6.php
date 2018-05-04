@@ -5,7 +5,7 @@
   }
 ?>
       <div class="post">
-        <h2 class="title">Bejelentkezés</h2>
+        <h2 class="title">Bejelentkezés</h2>     
         <div style="clear: both;">&nbsp;</div>
         <div class="entry belepes">
           <form action="." method="post">
@@ -15,7 +15,7 @@
           </form>
         </div>
       </div>
-      
+                  
       <script type="text/javascript">
         $("#fnev").focus();
       </script>

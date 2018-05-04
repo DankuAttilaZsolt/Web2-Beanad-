@@ -21,7 +21,7 @@
             select fh_id, fh_szint
             from ".MOTOR_FELHASZNALOK."
             where fh_fnev = :fnev
-                  and fh_jelszo = password(:pw);
+                  and fh_jelszo = sha1(:pw);
           "; 
           $stmt = $conn->prepare($sql);
           $stmt->execute(Array(':fnev' => $fnev, ':pw' => $pw));

@@ -10,6 +10,6 @@
   define("MOTOR_FELHASZNALOK", "motor_felhasznalok");
   define("MOTOR_BLOKKOK",      "motor_blokkok");
   define("MOTOR_SZINTEK",      "motor_szintek");
-  define("MOTOR_KOMMENT",      "motor_komment");
+  define("MOTOR_HOZZASZOLAS",      "motor_hozzaszolas");
 
 ?>

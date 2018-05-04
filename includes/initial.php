@@ -5,4 +5,5 @@
   include_once("includes/connect.inc.php");
   include_once("includes/user.class.php");
   include_once("includes/page.class.php");
+  include_once("includes/reg.class.php");
 ?>
