@@ -101,7 +101,8 @@ INSERT INTO `motor_oldalak` (`mo_id`, `mo_alias`, `mo_cim`, `mo_sorrend`, `mo_fe
 (13, 'vandy', 'Vandy Vape', 3, 10, 1, '2018-03-08 00:00:00', '2020-03-08 00:00:00', 0, 0, '011'),
 (14, 'wismec', 'Wismec', 4, 10, 1, '2018-03-08 00:00:00', '2020-03-08 00:00:00', 0, 0, '011'),
 (15, 'vgod', 'VGOD', 5, 10, 1, '2018-03-08 00:00:00', '2020-03-08 00:00:00', 0, 0, '011'),
-(404, 'hiba', '', 0, 0, 1, '2011-01-01 00:00:00', '2111-01-01 00:00:00', 0, 0, '111');
+(404, 'hiba', '', 0, 0, 1, '2011-01-01 00:00:00', '2111-01-01 00:00:00', 0, 0, '111'),
+(16, 'kommnet', 'Kommentek', 70, 1, 1, '2011-01-01 00:00:00', '2111-01-01 00:00:00', 1, 4, '011');
 
 -- --------------------------------------------------------
 
@@ -126,15 +127,16 @@ INSERT INTO `motor_szintek` (`msz_id`, `msz_nev`, `msz_rovid`) VALUES
 (3, 'admin', 'ad');
 
 CREATE TABLE IF NOT EXISTS `motor_hozzaszolas` (
-  `mh_id` int(11) NOT NULL AUTO_INCREMENT,
+  `mh_id` int(11) NOT NULL,
+  `mh_fnev` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
   `mh_hozzaszol` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
-  `mh_date` datetime NOT NULL,
-  PRIMARY KEY (`mh_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci AUTO_INCREMENT=3 ;
+  `mh_date` datetime NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
 
-INSERT INTO `motor_hozzaszolas` (`mh_id`, `mh_hozzaszol`, `mh_date`) VALUES
-(1, 'Hello hozzaszolas','2018-03-11 00:00:00'),
-(2, 'Hozzaszolas 2.','2018-02-22 02:41:06');
+INSERT INTO `motor_hozzaszolas` (`mh_id`, `mh_fnev`, `mh_hozzaszol`, `mh_date`) VALUES
+(1, 'admin', 'Üdv mindenkinek!
+   Itt tudtok kommenteket írni és olvasni.','2018-03-11 00:00:00');
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

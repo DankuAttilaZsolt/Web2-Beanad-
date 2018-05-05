@@ -28,6 +28,6 @@
           </p>
        
           
-          <p class="links"><a href="http://www.vandyvape.com/detail/MOD/60/">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
+          <p class="links"><a href="http://www.vandyvape.com/detail/MOD/60/">Read More</a></p>
         </div>
       </div>

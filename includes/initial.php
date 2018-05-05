@@ -6,4 +6,6 @@
   include_once("includes/user.class.php");
   include_once("includes/page.class.php");
   include_once("includes/reg.class.php");
+  include_once("includes/komment.ir.class.php");
+  include_once("includes/komment.olvas.class.php");
 ?>

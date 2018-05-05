@@ -44,15 +44,15 @@
           <!-- end #content -->
           <div id="sidebar">
             <ul>
-              <li>
-                <div id="search" >
+              <li> <br>
+               <!-- <div id="search" >
                   <form method="get" action="#">
                     <div>
                       <input type="text" name="s" id="search-text" value="" />
                       <input type="submit" id="search-submit" value="Keres" />
                     </div>
                   </form>
-                </div>
+                </div> -->
                 <div style="clear: both;">&nbsp;</div>
               </li>
               <?php

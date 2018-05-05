@@ -28,6 +28,6 @@
         Kimeneti módok: VW (H / N / S), CCW, CCT, VT (NI, TI, SS), TCR (M1, M2), RTC, BYPASS<br>
         Akkumulátor: Dual 18650 (nem tartozék)</p>
           
-          <p class="links"><a href="https://www.vaporesso.com/vape-kits-revenger-x-kit-vaporesso">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
+          <p class="links"><a href="https://www.vaporesso.com/vape-kits-revenger-x-kit-vaporesso">Read More</a></p>
         </div>
       </div>

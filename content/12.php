@@ -37,6 +37,6 @@
           </p>
        
           
-          <p class="links"><a href="https://www.smoktech.com/kit/alien-kit">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
+          <p class="links"><a href="https://www.smoktech.com/kit/alien-kit">Read More</a></p>
         </div>
       </div>

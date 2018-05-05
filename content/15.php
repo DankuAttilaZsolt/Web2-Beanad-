@@ -29,6 +29,6 @@
                 Post lyuk térköz, ID 11mm<br>
           </p>       
           
-          <p class="links"><a href="https://officialvgod.com/pro-mech-2-kit.html">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
+          <p class="links"><a href="https://officialvgod.com/pro-mech-2-kit.html">Read More</a></p>
         </div>
       </div>
