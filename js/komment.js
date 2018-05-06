@@ -1,7 +1,5 @@
-$(document).ready(function() {
-    
-    load();     
-        
+$(document).ready(function() {    
+    load();             
 });
 
 function load() {
@@ -18,16 +16,13 @@ function load() {
                 result.kommentek.forEach(function(item) {
                     html += '<tr>';
                     html += '<td><strong> Küldte: </strong>' + item.mh_fnev +'</td>';
-                    html += '<td>'+ item.mh_date+'</td>';
+                    html += '<td style="width:200px;">'+ item.mh_date+'</td>';
                     html += '</tr>';
                     html += '<tr>';
                     html += '<td> <strong> Kommment: </strong><br>' + item.mh_hozzaszol + '<br><br></td>';                    
-                    html += '</tr>';
-                 
+                    html += '</tr>';                 
                 });
                 $('#lista').html(html);
-            } else {
-                $('#lista').html('Nincsenek kommentek!');
             }
     });
 }

@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `motor_felhasznalok` (
   `fh_szint` int(11) NOT NULL,
   `fh_lastlogin` datetime NOT NULL,
   PRIMARY KEY (`fh_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci AUTO_INCREMENT=6 ;
 
 --
 -- A tábla adatainak kiíratása `motor_felhasznalok`
@@ -58,7 +58,10 @@ CREATE TABLE IF NOT EXISTS `motor_felhasznalok` (
 
 INSERT INTO `motor_felhasznalok` (`fh_id`, `fh_fnev`, `fh_jelszo`, `fh_tnev`, `fh_email`, `fh_aktiv`, `fh_szint`, `fh_lastlogin`) VALUES
 (1, 'admin', sha1('proba1'), 'Webmester', 'webmester@szoa.hu', 1, 3, '2012-03-03 13:54:16'),
-(2, 'danku', sha1('proba2'), 'Danku Attila', 'dankuattilazsolt@gmail.com', 1, 2, '2011-09-13 04:13:49');
+(2, 'danku', sha1('proba2'), 'Danku Attila', 'dankuattilazsolt@gmail.com', 1, 2, '2011-09-13 04:13:49'),
+(3, 'Aniko', sha1('proba2'), 'Nagy Anikó', 'ancsika@gmail.com', 1, 2, '2011-09-13 04:13:49'),
+(4, 'login1', sha1('proba2'), 'Login1', 'login1@gmail.com', 1, 2, '2011-09-13 04:13:49'),
+(5, 'login2', sha1('proba2'), 'Login2', 'login2@gmail.com', 1, 2, '2011-09-13 04:13:49');
 
 -- --------------------------------------------------------
 
@@ -135,7 +138,8 @@ CREATE TABLE IF NOT EXISTS `motor_hozzaszolas` (
 
 INSERT INTO `motor_hozzaszolas` (`mh_id`, `mh_fnev`, `mh_hozzaszol`, `mh_date`) VALUES
 (1, 'admin', 'Üdv mindenkinek!
-   Itt tudtok kommenteket írni és olvasni.','2018-03-11 00:00:00');
+   Itt tudtok kommenteket írni és olvasni.','2018-03-11 00:00:00'),
+(1, 'danku', 'Nagyon tetszik az oldal, örülök h regisztrálhattam. már 2 éve leszoktam a cigarettáról a vapemnek köszönhetően.','2018-05-06 02:16:04');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

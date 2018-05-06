@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="style/style.css" media="screen">
   <link rel="stylesheet" type="text/css" href="style/superfish.css" media="screen">
   <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="js/superfish.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>   
   <script type="text/javascript">
     // initialise plugins
     jQuery(function(){
@@ -25,7 +25,7 @@
           <p> design by <a href="http://templated.co/">templated</a></p>
         </div>
         <div id="menu">
-          <?php
+           <?php
             echo $page->GetPageMenu();
           ?>
         </div>
@@ -71,5 +71,6 @@
     <p>&copy; 2018. Danku Attila Zsolt / Design by <a href="http://templated.co/">templated</a>.</p>
   </div>
   <!-- end #footer -->
+ 
 </body>
 </html>

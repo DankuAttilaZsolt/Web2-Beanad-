@@ -12,6 +12,6 @@
           <p>Elektromos cigarettákkal foglalkozunk immáron 4. éve. Több stílusű Vapek léteznek nalunk pár kedvenc fel van tüntetve amit Regisztrálva/Belépve meg is nézheted őket. Kommenteket és véleményeket olvashatsz, írhatsz róluk.</p>
           <p>A Linkek menüpont alatt találsz pár weboldalt ahol tudsz vásárolni Vape termékeket-kiegészítőket.</p>
          
-          <p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
+          <!--<p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>-->
         </div>
       </div>
